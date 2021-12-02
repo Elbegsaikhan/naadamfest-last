@@ -1,0 +1,62 @@
+export default {
+    name: "savenow",
+    title: "Save now page",
+    type: "document",
+    fields: [
+        {
+            title: "Image",
+            name: "image",
+            type: "image",
+            options: {
+                hotspot: true, // <-- Defaults to false
+            },
+            fields: [
+                {
+                    name: "caption",
+                    type: "string",
+                    title: "Caption",
+                    options: {
+                        isHighlighted: true, // <-- make this field easily accessible
+                    },
+                },
+            ],
+        },
+        {
+            name: "text",
+            title: "Text",
+            type: "array",
+            of: [
+                {
+                    title: "Block",
+                    type: "block",
+                    styles: [
+                        { title: "Normal", value: "normal" },
+                        { title: "Title", value: "title" },
+                        { title: "H1", value: "h1" },
+                        { title: "H2", value: "h2" },
+                        { title: "H3", value: "h3" },
+                        { title: "Quote", value: "blockquote" },
+                    ],
+                    lists: [],
+                },
+            ],
+        },
+        // {
+        //     name: "tours",
+        //     title: "Tour",
+        //     type: "reference",
+        //     to: { type: "tours" },
+        // },
+        // {
+        //     name: "sale",
+        //     title: "Sale price",
+        //     type: "number",
+        // },
+    ],
+    preview: {
+        select: {
+            title: "image.caption",
+            media: "image",
+        },
+    },
+};

@@ -1,0 +1,13 @@
+# *
+User-agent: *
+Disallow: /secret
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://www.naadamfest.com
+
+# Sitemaps
+Sitemap: http://www.naadamfest.com/sitemap.xml

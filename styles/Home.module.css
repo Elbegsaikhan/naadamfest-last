@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "TransatLight";
+    src: url("../public/fonts/Transat Text Light Oblique.ttf");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+.bottom_text {
+    display: flex;
+    justify-content: center;
+    font-family: LucidaCalligraphy, sans-serif;
+}
+
+.bottom_text p {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.bottom_text_color p {
+    padding-top: 15px;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #ff6600;
+    text-align: center;
+}
+
+.media_icons {
+    z-index: 888;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    top: 30%;
+    flex-direction: column;
+    transition: 0.5s ease;
+}
+
+.media_icons a {
+    transition: 0.3s ease;
+}
+
+.media_icons a:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.media_icons a:hover {
+    transform: scale(1.3);
+}
+
+.why_travel {
+    color: #ff6600;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.why_travel h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-right: auto;
+    margin-left: auto;
+    text-transform: uppercase;
+}
+
+.travel_text {
+    max-width: 500px;
+}
+
+.travel_text h1 {
+    color: #ff6600;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.travel_text p {
+    font-family: TransatLight, serif;
+    color: #5f6c7b;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.naadam_more {
+    position: relative;
+}
+
+.naadam_more .naadam_div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.naadam_more .naadam_div a {
+    text-decoration: none;
+    font-family: CenturySchool, sans-serif;
+}
+
+.naadam_more .naadam_div a:hover {
+    text-decoration: underline;
+}
+
+.naadam_more .naadam_div p {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 4rem;
+    margin-top: 250px;
+    font-family: CenturySchool, sans-serif;
+}
+
+.main_title {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    top: 0;
+    /*background-color: red;*/
+}
+
+.main_title h1 {
+    font-family: LucidaCalligraphy, sans-serif;
+    font-size: 5rem;
+    font-style: italic;
+    text-align: center;
+    color: #fff;
+}
+
+.main_title h1 span{
+    font-family: LucidaCalligraphy, sans-serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.naadam_more .naadam_div a {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+@media (max-width: 1040px) {
+    .travel_text {
+        max-width: 300px;
+    }
+
+    .naadam_more .naadam_div p {
+        margin-top: 25px;
+        font-size: 2rem;
+    }
+
+    .naadam_more .naadam_div a {
+        font-size: 2rem;
+    }
+
+    .main_title h1 {
+        font-size: 4rem;
+    }
+    .main_title h1 span {
+        font-size: 3.5rem;
+    }
+
+}
+@media (max-width: 640px) {
+    .main_title h1 {
+        font-size: 2rem;
+    }
+    .main_title h1 span {
+        font-size: 1.5rem;
+    }
+
+}
+
+.home {
+    position: relative;
+}
+
+.home .video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.video {
+    width: 100%;
+}
+
+.home .content {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .content p {
+    text-align: center;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text p {
+    color: darkblue;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer_media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_media {
+    text-align: center;
+    color: #ff6600;
+}
+
+.connect_with {
+    /*background-color: turquoise;*/
+}

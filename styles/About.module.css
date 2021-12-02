@@ -1,0 +1,91 @@
+
+.main {
+    margin-left: -20px;
+    margin-top: 30px;
+}
+
+.main h1 {
+    font-family: CenturySchool, sans-serif;
+    font-size: 1.5rem;
+    color: #1a4652;
+    /*margin-inline: 20px;*/
+}
+
+.main p {
+    text-align: justify;
+    font-family: CenturySchool, sans-serif;
+    color: #818a91;
+    margin-inline: 20px;
+
+}
+
+.main h3 {
+    font-family: CenturySchool, sans-serif;
+    color: #1a4652;;
+    margin-top: 30px;
+    font-size: 1.4rem;
+
+}
+
+.main h4 {
+    font-family: CenturySchool, sans-serif;
+    /*color: #1a4652;;*/
+    font-style: italic;
+    font-size: 1.3rem;
+}
+
+.main ul li {
+    list-style: none;
+}
+
+.main ul li:before {
+    content: '✓';
+}
+
+.employee {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.employee .image {
+    width: 400px;
+    height: 300px;
+}
+
+.employee .info {
+    font-family: CenturySchool, sans-serif;
+    color: #818a91;
+    margin: 20px;
+}
+
+.employee .info h1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.our_ethos h1 {
+    font-family: CenturySchool, sans-serif;
+    color: #1a4652;
+    font-size: 2rem;
+    /*margin: -20px;*/
+}
+
+.our_ethos p {
+    font-family: CenturySchool, sans-serif;
+    color: #818a91;
+}
+
+.our_ethos p span {
+    color: #1a4652;
+}
+
+@media (max-width: 1040px) {
+    .main h1 {
+        text-align: center;
+    }
+
+    .main h3 {
+        text-align: center;
+    }
+}

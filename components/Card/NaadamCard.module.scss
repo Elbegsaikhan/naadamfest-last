@@ -1,0 +1,40 @@
+.body_main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+.body_main .image {
+  border-radius: 10px;
+}
+.body_main .kook {
+  max-width: 500px;
+  margin: 50px;
+}
+.body_main .kook h1{
+  color: #ff6600;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: normal;
+  margin: 10px;
+}
+.body_main .kook .link{
+  text-decoration: none;
+}
+.body_main .kook .link:hover {
+  text-decoration: underline;
+  color: #ff6600;
+  //color: #1C2430;
+}
+.body_main .kook p {
+  color: #818a91;
+  text-align: center;
+}
+@media (max-width: 1040px) {
+  .body_main .kook p {
+    margin: 10px;
+  }
+
+}

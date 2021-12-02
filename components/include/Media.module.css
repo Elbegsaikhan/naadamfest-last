@@ -1,0 +1,46 @@
+.line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.h_line {
+    border: 1px solid #ff6600;
+    width: 70%;
+    /*color: #ff6600;*/
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.main .title h1 {
+    font-size: 2rem;
+    color: #ff6600;
+    text-transform: uppercase;
+}
+
+.main .title p {
+    text-align: center;
+}
+
+.main .icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 5rem;
+}
+
+.icon a {
+    margin-left: 20px;
+}
+
+
+.icon a:hover {
+    border-radius: 50%;
+}
